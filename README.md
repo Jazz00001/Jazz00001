@@ -1,16 +1,55 @@
-## Hi there 👋
+# Hi, I'm Jagriti Banerjee 👋
 
-<!--
-**Jazz00001/Jazz00001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a cybersecurity student 
 
-Here are some ideas to get you started:
+I build practical security labs to understand how real attacks are detected, investigated, and documented inside a SOC environment.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔭 Current Main Project
+
+### [Enterprise SOC Lab — Wazuh SIEM/XDR](https://github.com/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection)
+
+A mini enterprise SOC lab built with Wazuh SIEM/XDR, Windows 10 + Sysmon, and Ubuntu Linux endpoints.
+
+What this project includes:
+
+- Wazuh SIEM/XDR deployment and configuration
+- Windows and Linux endpoint monitoring
+- Sysmon log collection
+- 6 attack simulations
+- MITRE ATT&CK mapping
+- File Integrity Monitoring
+- Vulnerability detection
+- Formal incident reports
+- SOC-style alert triage documentation
+
+## 🛡️ Cybersecurity Focus Areas
+
+- SOC Analysis
+- Blue Team Operations
+- SIEM Monitoring
+- Incident Response
+- Windows Event Logs
+- Linux Authentication Logs
+- MITRE ATT&CK Mapping
+- Vulnerability Detection
+
+## 🛠️ Tools & Technologies
+
+Wazuh · Sysmon · Windows Event Viewer · Ubuntu Linux · VirtualBox · MITRE ATT&CK · GitHub · Hydra · PowerShell · Linux auth.log · File Integrity Monitoring
+
+## 📚 Currently Learning
+
+- Active Directory Security
+- SOC Analyst workflows
+- Detection engineering
+- Vulnerability management
+- Red Team vs Blue Team methodology
+- Professional incident report writing
+
+## 📌 Featured Project
+
+- [Enterprise SOC Lab — Wazuh SIEM/XDR with MITRE ATT&CK Detection](https://github.com/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection)
+
+## 📫 Contact
+
+GitHub: [Jazz00001](https://github.com/Jazz00001)
