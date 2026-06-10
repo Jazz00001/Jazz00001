@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Jagriti Banerjee 👋
+# Hi, I'm Jagriti Banerjee 
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=64FFDA&center=true&vCenter=true&width=900&lines=Cybersecurity+Student;SOC+%7C+Detection+Engineering+%7C+VAPT+Labs;Wazuh+SIEM+%7C+Sysmon+%7C+MITRE+ATT%26CK;Web+%7C+API+%7C+Active+Directory+%7C+Cloud+Security;Building+hands-on+security+labs+with+professional+documentation" alt="Typing SVG" />
 
