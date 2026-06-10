@@ -274,22 +274,6 @@ Publish professional GitHub portfolio documentation
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Jazz00001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Jazz00001&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-<br/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jazz00001&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-</div>
-
----
-
 ## 🎓 Currently Learning
 
 ```text
@@ -338,6 +322,6 @@ I am especially interested in roles where I can continue building, investigating
 
 <div align="center">
 
-### “Build. Break. Detect. Investigate. Document. Improve.”
+### “Build. Attack. Break. Detect. Investigate. Document. Improve.”
 
 </div>
