@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
 
 # Hi, I'm Jagriti Banerjee 👋
@@ -7,9 +6,9 @@
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Jazz00001-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jazz00001)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jagriti%20Banerjee-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jagriti-banerjee/)
-[![Email](https://img.shields.io/badge/Email-banerjeej100%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:banerjeej100@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Jazz00001-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Jazz00001)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jagriti%20Banerjee-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jagriti-banerjee/)
+[![Email](https://img.shields.io/badge/Email-banerjeej100%40gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:banerjeej100@gmail.com)
 
 </div>
 
@@ -17,20 +16,20 @@
 
 ## 🧭 About Me
 
-I am a cybersecurity student focused on building **hands-on enterprise-style security labs** that connect offensive security, defensive monitoring, investigation workflows, and professional reporting.
+I am a cybersecurity student focused on building **hands-on enterprise-style security labs** that connect offensive security, defensive monitoring, investigation workflows, evidence handling, and professional reporting.
 
-My work is centered around:
+My work focuses on:
 
-- SOC analysis and alert triage  
-- SIEM/XDR deployment and investigation  
-- Windows endpoint monitoring with Sysmon  
-- MITRE ATT&CK mapping  
-- Web, API, Active Directory, and Cloud security assessment  
-- Network packet analysis with Wireshark and tcpdump  
-- Evidence-based cybersecurity documentation  
-- Professional report writing for security findings  
+* SOC analysis and alert triage
+* SIEM/XDR monitoring with Wazuh
+* Windows endpoint monitoring with Sysmon
+* MITRE ATT&CK mapping
+* Web, API, Active Directory, and Cloud security assessment
+* Network packet analysis with Wireshark and tcpdump
+* Evidence-based cybersecurity documentation
+* Professional security report writing
 
-I believe cybersecurity is learned best by building, breaking, detecting, documenting, and improving systems through practical labs.
+I believe cybersecurity is learned best by building, testing, detecting, investigating, documenting, and improving systems through practical labs.
 
 ---
 
@@ -47,7 +46,7 @@ AWS Cloud Security
 Network Packet Analysis
 MITRE ATT&CK Mapping
 Professional Security Reporting
-````
+```
 
 ---
 
@@ -63,11 +62,11 @@ A full hands-on security assessment portfolio project covering multiple enterpri
 
 #### Key Work Completed
 
-* Built a structured Web VAPT lab with DVWA and Kali Linux
+* Built a structured Web VAPT lab using DVWA and Kali Linux
 * Performed reconnaissance, enumeration, scanning, exploitation validation, and reporting
 * Conducted API security testing using crAPI, Postman, JWT analysis, ffuf, Kiterunner, GraphQL, and OAuth request review
 * Built an Active Directory attack lab with Responder, Hashcat, SMB validation, Kerberoasting, BloodHound, Pass-the-Hash, and DCSync testing
-* Completed AWS CloudGoat-style security assessment with IAM enumeration, Pacu, ScoutSuite, S3 access testing, IMDS credential exposure, cleanup, and billing verification
+* Completed AWS cloud security assessment with IAM enumeration, Pacu, ScoutSuite, S3 access testing, IMDS credential exposure, cleanup, and billing verification
 * Created professional PDF reports for assessment summaries, tool outputs, methodology sections, and evidence documentation
 * Redacted sensitive values before GitHub publication
 
@@ -342,4 +341,3 @@ I am especially interested in roles where I can continue building, investigating
 ### “Build. Break. Detect. Investigate. Document. Improve.”
 
 </div>
-```
