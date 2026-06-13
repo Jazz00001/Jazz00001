@@ -76,56 +76,39 @@ A full hands-on security assessment portfolio project covering multiple enterpri
 
 ---
 
-### 1. Enterprise DevSecOps Red Team Lab — CI/CD, Kubernetes, Supply Chain Security & PTaaS Reporting
+### 2. Enterprise DevSecOps Red Team Lab
 
-**DevSecOps Security | API Security | Kubernetes | Kyverno | Docker | Trivy | Semgrep | Gitleaks | SBOM | CI/CD Security**
+**CI/CD Security | Kubernetes Security | Container Security | Supply Chain Security | PTaaS Reporting**
 
-[View Project](https://github.com/Jazz00001/Enterprise-DevSecOps-Redteam-Lab)
+[![View Project](https://img.shields.io/badge/View%20Project-000000?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Jazz00001/Enterprise-DevSecOps-Redteam-Lab)
+![Enterprise DevSecOps Red Team Lab](https://img.shields.io/badge/Enterprise%20DevSecOps%20Red%20Team%20Lab-64FFDA?style=for-the-badge\&labelColor=111111)
 
-A full enterprise-style DevSecOps security lab simulating a vulnerable banking API, CI/CD security checks, Docker image hardening, Kubernetes deployment risk, Kyverno policy enforcement, supply-chain visibility, vulnerability scanning, remediation workflow, and PTaaS-style reporting.
+A full hands-on DevSecOps security portfolio project covering the complete security lifecycle: vulnerable API development, CI/CD security checks, Docker image scanning, Kubernetes deployment security, Kyverno policy enforcement, SBOM generation, remediation validation, and PTaaS-style reporting.
 
 #### Key Work Completed
 
-* Built and tested a FastAPI-based vulnerable banking API with Swagger documentation and curl-based API validation.
-* Created Docker images for insecure and remediated application builds.
-* Performed SAST using Semgrep to detect hardcoded JWT secrets, database URL exposure, and exposed debug endpoints.
-* Ran Gitleaks secret scanning to validate repository-level secret exposure checks.
-* Used Trivy for filesystem and container image vulnerability scanning.
-* Generated an SPDX JSON SBOM using Syft for software supply-chain visibility.
-* Created a local Kubernetes lab using Kind.
-* Deployed insecure and secure workloads into Kubernetes for security validation.
-* Installed and configured Kyverno policy-as-code controls.
-* Demonstrated Kyverno blocking insecure workloads using admission control.
-* Validated secure Kubernetes deployment with non-root execution, disabled privilege escalation, dropped capabilities, seccomp, and resource limits.
-* Documented PTaaS-style finding cards, retest reports, compliance mapping, Jira/Slack remediation workflow, and video PoC storyboard.
-* Created local CI/CD workflow evidence for API tests, SAST, secret scanning, Docker build, Trivy scanning, and SBOM generation.
-
-#### Security Areas Covered
-
-| Area                | Evidence                                                                                                           |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| API Security        | FastAPI docs, curl testing, protected endpoint validation, exposed debug endpoint finding                          |
-| SAST                | Semgrep findings for hardcoded JWT secret, database URL, and debug route                                           |
-| Secret Scanning     | Gitleaks scan evidence                                                                                             |
-| Container Security  | Docker builds, Trivy insecure image scan, secure image retest                                                      |
-| Kubernetes Security | Kind cluster, insecure deployment, secure deployment, security context validation                                  |
-| Policy-as-Code      | Kyverno policies blocking privileged containers, privilege escalation, root execution, and missing resource limits |
-| Supply Chain        | Syft SBOM generation in SPDX JSON format                                                                           |
-| Reporting           | Finding cards, retest report, compliance mapping, workflow documentation                                           |
+* Built a vulnerable FastAPI-based banking API with Swagger documentation, health checks, login endpoint, protected routes, and an intentionally exposed admin debug endpoint
+* Performed API testing using curl, Swagger UI, and Pytest to validate endpoint behavior, authentication handling, and API security evidence
+* Created Docker images for insecure and remediated application builds with clear before-and-after container security comparison
+* Conducted SAST using Semgrep to detect hardcoded JWT secrets, database URL exposure, and exposed debug routes
+* Ran Gitleaks secret scanning to demonstrate repository-level secret detection workflow
+* Performed Trivy filesystem and Docker image vulnerability scans, including insecure image findings and secure image retest evidence
+* Generated an SPDX JSON SBOM using Syft to demonstrate software supply-chain visibility and dependency inventory
+* Built a local Kubernetes security lab using Kind and deployed insecure and secure workloads for validation
+* Installed and configured Kyverno policy-as-code controls to block privileged containers, privilege escalation, root execution, and missing resource limits
+* Demonstrated insecure workload blocking through Kubernetes admission control and validated a secure deployment running with non-root user, dropped capabilities, seccomp, and resource limits
+* Created PTaaS-style finding cards, retest report, compliance mapping, Jira/Slack remediation workflow, and final validation evidence
+* Documented local CI/CD workflow evidence for GitHub Actions and GitLab CI/CD covering API tests, SAST, secret scanning, Docker build, Trivy scanning, and SBOM generation
 
 #### Skills Demonstrated
 
-`DevSecOps` · `API Security` · `FastAPI` · `Docker` · `Kubernetes` · `Kind` · `Kyverno` · `Policy-as-Code` · `Semgrep` · `Gitleaks` · `Trivy` · `Syft SBOM` · `CI/CD Security` · `GitHub Actions` · `GitLab CI/CD` · `Container Hardening` · `Vulnerability Management` · `PTaaS Reporting` · `Compliance Mapping` · `Security Retesting`
-
-#### Project Outcome
-
-This project demonstrates the complete security lifecycle: **build vulnerable service → test API → scan code and containers → deploy to Kubernetes → enforce policy-as-code → block insecure workloads → harden deployment → retest → document findings and remediation evidence**.
+`DevSecOps` · `API Security` · `FastAPI` · `Docker` · `Kubernetes` · `Kind` · `Kyverno` · `Policy-as-Code` · `Semgrep` · `Gitleaks` · `Trivy` · `Syft` · `SBOM` · `CI/CD Security` · `GitHub Actions` · `GitLab CI/CD` · `Container Hardening` · `Kubernetes Security` · `Supply Chain Security` · `Vulnerability Management` · `PTaaS Reporting` · `Compliance Mapping` · `Security Retesting`
 
 
 
 ---
 
-### 2. Enterprise SOC Lab — Wazuh SIEM/XDR with MITRE ATT&CK Detection
+### 3. Enterprise SOC Lab — Wazuh SIEM/XDR with MITRE ATT&CK Detection
 
 [![View Project](https://img.shields.io/badge/View_Project-Wazuh_SOC_Lab-00d4aa?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection)
 
@@ -148,7 +131,7 @@ An enterprise-style SOC monitoring lab using Wazuh SIEM/XDR, Windows endpoint te
 
 ---
 
-### 3. Windows Detection Engineering Lab — Wazuh, Sysmon & MITRE ATT&CK
+### 4. Windows Detection Engineering Lab — Wazuh, Sysmon & MITRE ATT&CK
 
 [![View Project](https://img.shields.io/badge/View_Project-Windows_Detection_Engineering-233554?style=for-the-badge\&logo=windows\&logoColor=white)](https://github.com/Jazz00001/Windows-Detection-Engineering-Lab-Wazuh-Sysmon-MITRE-ATT-CK)
 
@@ -178,7 +161,7 @@ A Windows-focused detection engineering lab built around custom Wazuh rules, Sys
 
 ---
 
-### 4. Advanced Network Attack Packet Analysis Lab
+### 5. Advanced Network Attack Packet Analysis Lab
 
 [![View Project](https://img.shields.io/badge/View_Project-Network_Packet_Analysis-1E90FF?style=for-the-badge\&logo=wireshark\&logoColor=white)](https://github.com/Jazz00001/network-attack-packet-analysis-wireshark)
 
