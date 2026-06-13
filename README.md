@@ -202,7 +202,7 @@ A packet analysis lab designed to capture and investigate controlled network att
 ![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-Mapping-E34F26?style=flat-square)
 ![Incident Response](https://img.shields.io/badge/Incident_Response-Documentation-64ffda?style=flat-square)
 
-`Wazuh SIEM/XDR` · `Alert Investigation` · `Security Event Monitoring` · `SOC Triage` · `Incident Documentation` · `Evidence Handling`
+`Wazuh SIEM/XDR` · `Alert Investigation` · `Security Event Monitoring` · `SOC Triage` · `Incident Documentation` · `Evidence Handling` · `MITRE ATT&CK Mapping` · `Detection Documentation`
 
 ### Endpoint Security & Detection Engineering
 
@@ -210,16 +210,37 @@ A packet analysis lab designed to capture and investigate controlled network att
 ![Sysmon](https://img.shields.io/badge/Sysmon-Telemetry-00A4EF?style=flat-square)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Detection-5391FE?style=flat-square\&logo=powershell\&logoColor=white)
 
-`Sysmon` · `Windows Event Viewer` · `Windows Security Logs` · `Windows Defender Logs` · `Custom Wazuh Rules` · `Rule Validation` · `False Positive Tuning`
+`Sysmon` · `Windows Event Viewer` · `Windows Security Logs` · `Windows Defender Logs` · `Custom Wazuh Rules` · `Rule Validation` · `False Positive Tuning` · `Endpoint Telemetry Analysis`
 
 ### Web & API Security
 
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square\&logo=portswigger\&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-Top_10-3E4D6C?style=flat-square\&logo=owasp\&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-API_Testing-FF6C37?style=flat-square\&logo=postman\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-API_Security-009688?style=flat-square\&logo=fastapi\&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-Testing-E10098?style=flat-square\&logo=graphql\&logoColor=white)
 
-`DVWA` · `crAPI` · `Burp Suite` · `SQLMap` · `Gobuster` · `Nikto` · `WhatWeb` · `Postman` · `JWT Analysis` · `GraphQL` · `OAuth Review`
+`DVWA` · `crAPI` · `FastAPI` · `Burp Suite` · `SQLMap` · `Gobuster` · `Nikto` · `WhatWeb` · `Postman` · `JWT Analysis` · `GraphQL` · `OAuth Review` · `Swagger Testing` · `API Authentication Testing`
+
+### DevSecOps, CI/CD & Supply Chain Security
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square\&logo=githubactions\&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-Pipeline_Security-FC6D26?style=flat-square\&logo=gitlab\&logoColor=white)
+![Semgrep](https://img.shields.io/badge/Semgrep-SAST-2E3440?style=flat-square)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-Secret_Scanning-8A2BE2?style=flat-square)
+![Trivy](https://img.shields.io/badge/Trivy-Vulnerability_Scanning-1904DA?style=flat-square)
+![Syft](https://img.shields.io/badge/Syft-SBOM_Generation-0B7285?style=flat-square)
+
+`GitHub Actions` · `GitLab CI/CD` · `Semgrep` · `Gitleaks` · `Trivy` · `Syft` · `SBOM` · `SPDX JSON` · `SAST` · `Secret Scanning` · `Container Image Scanning` · `Security Gate Validation` · `Retest Evidence` · `CI/CD Security Documentation`
+
+### Container & Kubernetes Security
+
+![Docker](https://img.shields.io/badge/Docker-Container_Security-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Security-326CE5?style=flat-square\&logo=kubernetes\&logoColor=white)
+![Kyverno](https://img.shields.io/badge/Kyverno-Policy_as_Code-1F6FEB?style=flat-square)
+![Kind](https://img.shields.io/badge/Kind-Local_Kubernetes-326CE5?style=flat-square)
+
+`Docker` · `Dockerfile Hardening` · `Kubernetes` · `Kind` · `kubectl` · `Kyverno` · `Policy-as-Code` · `Admission Control` · `Non-Root Containers` · `Privilege Escalation Prevention` · `Linux Capabilities` · `Seccomp` · `Resource Limits` · `Secure Deployment Validation`
 
 ### Active Directory & Internal Network Security
 
@@ -227,7 +248,7 @@ A packet analysis lab designed to capture and investigate controlled network att
 ![BloodHound](https://img.shields.io/badge/BloodHound-Attack_Paths-DC143C?style=flat-square)
 ![Impacket](https://img.shields.io/badge/Impacket-AD_Attacks-2E4057?style=flat-square\&logo=python\&logoColor=white)
 
-`Responder` · `Hashcat` · `NetExec` · `CrackMapExec` · `Impacket` · `Kerberoasting` · `BloodHound` · `Pass-the-Hash` · `DCSync Lab Testing`
+`Responder` · `Hashcat` · `NetExec` · `CrackMapExec` · `Impacket` · `Kerberoasting` · `BloodHound` · `Pass-the-Hash` · `DCSync Lab Testing` · `SMB Enumeration` · `Internal Network Assessment`
 
 ### Cloud Security
 
@@ -235,7 +256,7 @@ A packet analysis lab designed to capture and investigate controlled network att
 ![Pacu](https://img.shields.io/badge/Pacu-IAM_PrivEsc-CC4400?style=flat-square)
 ![ScoutSuite](https://img.shields.io/badge/ScoutSuite-Cloud_Audit-1E90FF?style=flat-square)
 
-`AWS CLI` · `IAM Enumeration` · `CloudGoat` · `Pacu` · `ScoutSuite` · `S3 Public Access Testing` · `EC2 IMDS` · `Cloud Cleanup` · `Billing Verification`
+`AWS CLI` · `IAM Enumeration` · `CloudGoat` · `Pacu` · `ScoutSuite` · `S3 Public Access Testing` · `EC2 IMDS` · `Cloud Misconfiguration Review` · `Cloud Cleanup` · `Billing Verification`
 
 ### Network Security
 
@@ -243,7 +264,7 @@ A packet analysis lab designed to capture and investigate controlled network att
 ![tcpdump](https://img.shields.io/badge/tcpdump-PCAP_Capture-4EAA25?style=flat-square)
 ![Nmap](https://img.shields.io/badge/Nmap-Service_Discovery-004170?style=flat-square)
 
-`Wireshark` · `tcpdump` · `Nmap` · `Packet Capture` · `Traffic Analysis` · `ICMP` · `TCP` · `SSH` · `SMB`
+`Wireshark` · `tcpdump` · `Nmap` · `Packet Capture` · `Traffic Analysis` · `ICMP` · `TCP` · `SSH` · `SMB` · `Service Discovery` · `Network Evidence Collection`
 
 ### Operating Systems & Platforms
 
@@ -251,13 +272,13 @@ A packet analysis lab designed to capture and investigate controlled network att
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-Linux-E95420?style=flat-square\&logo=ubuntu\&logoColor=white)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-AD_Lab-0078D6?style=flat-square\&logo=windows\&logoColor=white)
 
-`Kali Linux` · `Ubuntu Linux` · `Windows 10` · `Windows Server` · `Metasploitable 2` · `Docker` · `VirtualBox` · `VMware`
+`Kali Linux` · `Ubuntu Linux` · `Windows 10` · `Windows Server` · `Metasploitable 2` · `Docker` · `Kubernetes` · `VirtualBox` · `VMware` · `Kind`
 
 ---
 
 ## 🧾 Security Documentation I Create
 
-I focus heavily on professional reporting because technical work is only valuable when it can be clearly explained.
+I focus heavily on professional reporting because technical work is only valuable when it can be clearly explained, validated, and improved.
 
 My documentation style includes:
 
@@ -271,8 +292,14 @@ Screenshot Mapping
 Attack Methodology
 Risk and Impact Analysis
 MITRE ATT&CK Mapping
-OWASP Mapping
-Remediation Roadmap
+OWASP API Top 10 Mapping
+Compliance Mapping
+SBOM and Supply-Chain Evidence
+Container Security Findings
+Kubernetes Security Findings
+Policy-as-Code Validation
+Retest and Remediation Report
+Jira/Slack Remediation Workflow
 Redaction and GitHub Safety Checklist
 Appendix and References
 ```
@@ -284,17 +311,21 @@ Appendix and References
 ```text
 Build the lab
         ↓
-Generate controlled activity
+Generate controlled activity or vulnerable scenario
         ↓
-Collect endpoint, network, cloud, or application evidence
+Test API, endpoint, network, cloud, container, or Kubernetes behaviour
         ↓
-Analyze tool output and logs
+Collect screenshots, logs, scan output, and command evidence
         ↓
-Validate findings manually
+Analyze tool output and validate findings manually
         ↓
-Map behaviour to MITRE ATT&CK / OWASP
+Map behaviour to MITRE ATT&CK / OWASP / compliance controls
         ↓
-Document evidence and remediation
+Document business impact and remediation steps
+        ↓
+Apply fixes, hardening, or policy controls
+        ↓
+Retest and confirm security improvement
         ↓
 Redact sensitive values
         ↓
@@ -308,8 +339,11 @@ Publish professional GitHub portfolio documentation
 * Built a working Wazuh SIEM/XDR SOC lab with Windows and Linux endpoints
 * Created custom Windows detections using Sysmon and Wazuh rules
 * Captured and analyzed packet-level attack traffic using Wireshark and tcpdump
-* Built a multi-area Enterprise Security Assessment Lab covering Web, API, AD, and AWS Cloud Security
-* Created professional PDF documentation for methodology, tools, evidence, findings, and remediation
+* Built a multi-area Enterprise Security Assessment Lab covering Web, API, Active Directory, and AWS Cloud Security
+* Built an Enterprise DevSecOps Red Team Lab covering API security, CI/CD security, Docker, Kubernetes, Kyverno, Trivy, Semgrep, Gitleaks, Syft SBOM, compliance mapping, and remediation retesting
+* Demonstrated insecure Kubernetes workload blocking using Kyverno admission control
+* Created before-and-after container security evidence using Trivy insecure and secure image scans
+* Created professional security documentation including finding cards, technical reports, retest reports, compliance mapping, and remediation workflow evidence
 * Practiced both offensive validation and defensive interpretation
 * Focused on safe, authorized, isolated lab environments only
 
@@ -324,6 +358,13 @@ Windows detection engineering
 Active Directory security
 API security testing
 Cloud security assessment
+DevSecOps security
+CI/CD pipeline security
+Docker and container hardening
+Kubernetes security
+Kyverno policy-as-code
+Software supply-chain security
+SBOM generation and review
 Vulnerability management
 SIEM rule tuning
 Incident response reporting
@@ -334,18 +375,25 @@ Professional security documentation
 
 ## 🎯 Career Goal
 
-I am currently seeking **cybersecurity internship or entry-level SOC analyst opportunities** where I can apply hands-on skills in:
+I am currently seeking **cybersecurity internship, entry-level SOC analyst, junior security analyst, VAPT intern, or DevSecOps security intern opportunities** where I can apply hands-on skills in:
 
 * SIEM monitoring
 * Alert triage
 * Endpoint detection
 * Vulnerability assessment
+* Web and API security testing
 * Security documentation
 * Packet analysis
 * Cloud and Active Directory security fundamentals
+* Docker and Kubernetes security fundamentals
+* CI/CD security checks
+* Container vulnerability scanning
+* SBOM and supply-chain security evidence
 * Incident response support
+* Retesting and remediation reporting
 
-I am especially interested in roles where I can continue building, investigating, documenting, and improving security workflows in a real team environment.
+My goal is to grow into a well-rounded cybersecurity professional who can investigate security events, validate vulnerabilities, harden systems, and communicate findings clearly through professional reports.
+
 
 ---
 
