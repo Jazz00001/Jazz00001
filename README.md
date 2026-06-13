@@ -16,20 +16,23 @@
 
 ## 🧭 About Me
 
-I am a cybersecurity student focused on building **hands-on enterprise-style security labs** that connect offensive security, defensive monitoring, investigation workflows, evidence handling, and professional reporting.
+I am a cybersecurity student focused on building **hands-on enterprise-style security labs** that connect offensive security, defensive monitoring, DevSecOps, cloud security, Kubernetes security, evidence handling, and professional security reporting.
 
 My work focuses on:
 
-* SOC analysis and alert triage
-* SIEM/XDR monitoring with Wazuh
+* SOC analysis, alert triage, and detection engineering
+* SIEM/XDR monitoring using Wazuh
 * Windows endpoint monitoring with Sysmon
-* MITRE ATT&CK mapping
-* Web, API, Active Directory, and Cloud security assessment
-* Network packet analysis with Wireshark and tcpdump
-* Evidence-based cybersecurity documentation
-* Professional security report writing
+* MITRE ATT&CK mapping and detection documentation
+* Web VAPT, API security testing, and authentication review
+* Active Directory attack simulation and security assessment
+* AWS cloud security assessment and misconfiguration testing
+* DevSecOps security, CI/CD security checks, and container hardening
+* Kubernetes security using Kind, Kyverno, and policy-as-code
+* Supply-chain security using Trivy, Gitleaks, Semgrep, and Syft SBOM
+* Evidence-backed cybersecurity documentation, retesting, and remediation reporting
 
-I believe cybersecurity is learned best by building, testing, detecting, investigating, documenting, and improving systems through practical labs.
+I believe cybersecurity is learned best by **building, testing, breaking, detecting, documenting, hardening, and improving systems through practical labs**.
 
 ---
 
@@ -43,10 +46,16 @@ Web Application VAPT
 API Security Testing
 Active Directory Security
 AWS Cloud Security
-Network Packet Analysis
+DevSecOps Security
+CI/CD Security
+Docker and Container Security
+Kubernetes Security
+Kyverno Policy-as-Code
+SBOM and Supply-Chain Security
 MITRE ATT&CK Mapping
 Professional Security Reporting
 ```
+
 
 ---
 
