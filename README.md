@@ -76,6 +76,55 @@ A full hands-on security assessment portfolio project covering multiple enterpri
 
 ---
 
+### 1. Enterprise DevSecOps Red Team Lab — CI/CD, Kubernetes, Supply Chain Security & PTaaS Reporting
+
+**DevSecOps Security | API Security | Kubernetes | Kyverno | Docker | Trivy | Semgrep | Gitleaks | SBOM | CI/CD Security**
+
+[View Project](https://github.com/Jazz00001/Enterprise-DevSecOps-Redteam-Lab)
+
+A full enterprise-style DevSecOps security lab simulating a vulnerable banking API, CI/CD security checks, Docker image hardening, Kubernetes deployment risk, Kyverno policy enforcement, supply-chain visibility, vulnerability scanning, remediation workflow, and PTaaS-style reporting.
+
+#### Key Work Completed
+
+* Built and tested a FastAPI-based vulnerable banking API with Swagger documentation and curl-based API validation.
+* Created Docker images for insecure and remediated application builds.
+* Performed SAST using Semgrep to detect hardcoded JWT secrets, database URL exposure, and exposed debug endpoints.
+* Ran Gitleaks secret scanning to validate repository-level secret exposure checks.
+* Used Trivy for filesystem and container image vulnerability scanning.
+* Generated an SPDX JSON SBOM using Syft for software supply-chain visibility.
+* Created a local Kubernetes lab using Kind.
+* Deployed insecure and secure workloads into Kubernetes for security validation.
+* Installed and configured Kyverno policy-as-code controls.
+* Demonstrated Kyverno blocking insecure workloads using admission control.
+* Validated secure Kubernetes deployment with non-root execution, disabled privilege escalation, dropped capabilities, seccomp, and resource limits.
+* Documented PTaaS-style finding cards, retest reports, compliance mapping, Jira/Slack remediation workflow, and video PoC storyboard.
+* Created local CI/CD workflow evidence for API tests, SAST, secret scanning, Docker build, Trivy scanning, and SBOM generation.
+
+#### Security Areas Covered
+
+| Area                | Evidence                                                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| API Security        | FastAPI docs, curl testing, protected endpoint validation, exposed debug endpoint finding                          |
+| SAST                | Semgrep findings for hardcoded JWT secret, database URL, and debug route                                           |
+| Secret Scanning     | Gitleaks scan evidence                                                                                             |
+| Container Security  | Docker builds, Trivy insecure image scan, secure image retest                                                      |
+| Kubernetes Security | Kind cluster, insecure deployment, secure deployment, security context validation                                  |
+| Policy-as-Code      | Kyverno policies blocking privileged containers, privilege escalation, root execution, and missing resource limits |
+| Supply Chain        | Syft SBOM generation in SPDX JSON format                                                                           |
+| Reporting           | Finding cards, retest report, compliance mapping, workflow documentation                                           |
+
+#### Skills Demonstrated
+
+`DevSecOps` · `API Security` · `FastAPI` · `Docker` · `Kubernetes` · `Kind` · `Kyverno` · `Policy-as-Code` · `Semgrep` · `Gitleaks` · `Trivy` · `Syft SBOM` · `CI/CD Security` · `GitHub Actions` · `GitLab CI/CD` · `Container Hardening` · `Vulnerability Management` · `PTaaS Reporting` · `Compliance Mapping` · `Security Retesting`
+
+#### Project Outcome
+
+This project demonstrates the complete security lifecycle: **build vulnerable service → test API → scan code and containers → deploy to Kubernetes → enforce policy-as-code → block insecure workloads → harden deployment → retest → document findings and remediation evidence**.
+
+
+
+---
+
 ### 2. Enterprise SOC Lab — Wazuh SIEM/XDR with MITRE ATT&CK Detection
 
 [![View Project](https://img.shields.io/badge/View_Project-Wazuh_SOC_Lab-00d4aa?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection)
