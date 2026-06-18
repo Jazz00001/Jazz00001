@@ -409,44 +409,6 @@ flowchart LR
 
 A packet analysis lab designed to capture and investigate controlled network attack traffic between Kali Linux and Metasploitable 2 using tcpdump and Wireshark.
 
-### Project Flow
-
-```mermaid
-
-flowchart LR
-    A[Build Private Attack Lab] --> B[Kali Linux Attacker]
-    A --> C[Metasploitable Target]
-
-    B --> D[Generate Controlled Network Traffic]
-
-    D --> D1[ICMP Baseline Ping]
-    D --> D2[ICMP Flood]
-    D --> D3[TCP SYN Flood]
-    D --> D4[SSH Brute Force]
-    D --> D5[SMB Enumeration]
-
-    D1 --> E[Capture Traffic with tcpdump]
-    D2 --> E
-    D3 --> E
-    D4 --> E
-    D5 --> E
-
-    E --> F[Open PCAP in Wireshark]
-    F --> G[Protocol Hierarchy Analysis]
-    F --> H[Conversations Analysis]
-    F --> I[Packet-Level Inspection]
-
-    G --> J[Identify Normal vs Suspicious Patterns]
-    H --> J
-    I --> J
-
-    J --> K[Document Indicators]
-    K --> L[Create Screenshots]
-    L --> M[Packet Analysis Report]
-    M --> N[Detection and Prevention Notes]
-
-```
-
 
 ### Traffic Scenarios Analyzed
 
@@ -638,7 +600,45 @@ flowchart LR
     G --> H[Document]
     H --> I[Improve Controls]
 ```
+---
 
+### Project Flow
+
+```mermaid
+
+flowchart LR
+    A[Build Private Attack Lab] --> B[Kali Linux Attacker]
+    A --> C[Metasploitable Target]
+
+    B --> D[Generate Controlled Network Traffic]
+
+    D --> D1[ICMP Baseline Ping]
+    D --> D2[ICMP Flood]
+    D --> D3[TCP SYN Flood]
+    D --> D4[SSH Brute Force]
+    D --> D5[SMB Enumeration]
+
+    D1 --> E[Capture Traffic with tcpdump]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    D5 --> E
+
+    E --> F[Open PCAP in Wireshark]
+    F --> G[Protocol Hierarchy Analysis]
+    F --> H[Conversations Analysis]
+    F --> I[Packet-Level Inspection]
+
+    G --> J[Identify Normal vs Suspicious Patterns]
+    H --> J
+    I --> J
+
+    J --> K[Document Indicators]
+    K --> L[Create Screenshots]
+    L --> M[Packet Analysis Report]
+    M --> N[Detection and Prevention Notes]
+
+```
 ---
 
 <p align="center">
