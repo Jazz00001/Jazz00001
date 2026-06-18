@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=26&duration=2600&pause=700&color=22C55E&center=true&vCenter=true&width=1050&lines=Building+Enterprise-Style+Cybersecurity+Labs;DevSecOps+Security+%7C+CI%2FCD+Security+%7C+Kubernetes+Hardening;SOC+Analysis+%7C+Wazuh+SIEM+%7C+MITRE+ATT%26CK+Detection;Cloud+Security+%7C+Web+VAPT+%7C+API+Security+%7C+Evidence-Based+Reporting" alt="Animated Cybersecurity Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=26&duration=2600&pause=700&color=22C55E&center=true&vCenter=true&width=1050&lines=Building+Enterprise-Style+Cybersecurity+Labs;VAPT;DevSecOps+Security+%7C+CI%2FCD+Security+%7C+Kubernetes+Hardening;SOC+Analysis+%7C+Wazuh+SIEM+%7C+MITRE+ATT%26CK+Detection;Cloud+Security+%7C+Web+VAPT+%7C+API+Security+%7C+Evidence-Based+Reporting" alt="Animated Cybersecurity Typing Banner" />
 </p>
 
 <p align="center">
