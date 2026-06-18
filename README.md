@@ -427,27 +427,42 @@ A packet analysis lab designed to capture and investigate controlled network att
 
 ---
 
+### Project Flow
+
 ```mermaid
-flowchart TB
-    A[Cybersecurity Learning Path] --> B[Web / API / Cloud / AD Assessment]
-    A --> C[SOC Monitoring and SIEM]
-    A --> D[Windows Detection Engineering]
-    A --> E[Network Packet Analysis]
-    A --> F[Enterprise DevSecOps Security]
 
-    B --> G[Offensive Security Understanding]
-    C --> H[Defensive Monitoring Skills]
-    D --> I[Detection Engineering Skills]
-    E --> J[Network Investigation Skills]
-    F --> K[Secure SDLC and Cloud-Native Security Skills]
+flowchart LR
+    A[Build Private Attack Lab] --> B[Kali Linux Attacker]
+    A --> C[Metasploitable Target]
 
-    G --> L[Evidence-Based Security Reporting]
-    H --> L
-    I --> L
-    J --> L
-    K --> L
+    B --> D[Generate Controlled Network Traffic]
 
-    L --> M[Professional Portfolio for SOC / DevSecOps / Cloud Security Roles]
+    D --> D1[ICMP Baseline Ping]
+    D --> D2[ICMP Flood]
+    D --> D3[TCP SYN Flood]
+    D --> D4[SSH Brute Force]
+    D --> D5[SMB Enumeration]
+
+    D1 --> E[Capture Traffic with tcpdump]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    D5 --> E
+
+    E --> F[Open PCAP in Wireshark]
+    F --> G[Protocol Hierarchy Analysis]
+    F --> H[Conversations Analysis]
+    F --> I[Packet-Level Inspection]
+
+    G --> J[Identify Normal vs Suspicious Patterns]
+    H --> J
+    I --> J
+
+    J --> K[Document Indicators]
+    K --> L[Create Screenshots]
+    L --> M[Packet Analysis Report]
+    M --> N[Detection and Prevention Notes]
+
 ```
 
 ---
@@ -602,42 +617,27 @@ flowchart LR
 ```
 ---
 
-### Project Flow
-
 ```mermaid
+flowchart TB
+    A[Cybersecurity Learning Path] --> B[Web / API / Cloud / AD Assessment]
+    A --> C[SOC Monitoring and SIEM]
+    A --> D[Windows Detection Engineering]
+    A --> E[Network Packet Analysis]
+    A --> F[Enterprise DevSecOps Security]
 
-flowchart LR
-    A[Build Private Attack Lab] --> B[Kali Linux Attacker]
-    A --> C[Metasploitable Target]
+    B --> G[Offensive Security Understanding]
+    C --> H[Defensive Monitoring Skills]
+    D --> I[Detection Engineering Skills]
+    E --> J[Network Investigation Skills]
+    F --> K[Secure SDLC and Cloud-Native Security Skills]
 
-    B --> D[Generate Controlled Network Traffic]
+    G --> L[Evidence-Based Security Reporting]
+    H --> L
+    I --> L
+    J --> L
+    K --> L
 
-    D --> D1[ICMP Baseline Ping]
-    D --> D2[ICMP Flood]
-    D --> D3[TCP SYN Flood]
-    D --> D4[SSH Brute Force]
-    D --> D5[SMB Enumeration]
-
-    D1 --> E[Capture Traffic with tcpdump]
-    D2 --> E
-    D3 --> E
-    D4 --> E
-    D5 --> E
-
-    E --> F[Open PCAP in Wireshark]
-    F --> G[Protocol Hierarchy Analysis]
-    F --> H[Conversations Analysis]
-    F --> I[Packet-Level Inspection]
-
-    G --> J[Identify Normal vs Suspicious Patterns]
-    H --> J
-    I --> J
-
-    J --> K[Document Indicators]
-    K --> L[Create Screenshots]
-    L --> M[Packet Analysis Report]
-    M --> N[Detection and Prevention Notes]
-
+    L --> M[Professional Portfolio for SOC / DevSecOps / Cloud Security Roles]
 ```
 ---
 
