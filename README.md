@@ -118,6 +118,51 @@ Professional Security Reporting
 
 A full hands-on security assessment portfolio project covering multiple enterprise attack surfaces: web applications, APIs, internal Active Directory networks, and AWS cloud environments.
 
+### Project Flow
+
+```mermaid
+flowchart LR
+    A[Define Assessment Scope] --> B[Build Lab Environment]
+
+    B --> C[Web VAPT]
+    B --> D[API Security Testing]
+    B --> E[Active Directory Lab]
+    B --> F[AWS Cloud Security Lab]
+
+    C --> C1[Reconnaissance]
+    C1 --> C2[Enumeration]
+    C2 --> C3[Vulnerability Testing]
+    C3 --> C4[Safe Exploitation Proof]
+    C4 --> C5[Web VAPT Findings Report]
+
+    D --> D1[API Endpoint Discovery]
+    D1 --> D2[Authentication and JWT Review]
+    D2 --> D3[Input Validation Testing]
+    D3 --> D4[Broken Access Control Testing]
+    D4 --> D5[API Security Report]
+
+    E --> E1[Windows Domain Setup]
+    E1 --> E2[SMB and Network Enumeration]
+    E2 --> E3[Responder / Hash Capture]
+    E3 --> E4[Kerberoasting / BloodHound Analysis]
+    E4 --> E5[AD Attack Path Report]
+
+    F --> F1[IAM Enumeration]
+    F1 --> F2[S3 Access Review]
+    F2 --> F3[EC2 IMDS Testing]
+    F3 --> F4[ScoutSuite / Pacu Review]
+    F4 --> F5[AWS Cloud Security Report]
+
+    C5 --> G[Evidence Screenshots]
+    D5 --> G
+    E5 --> G
+    F5 --> G
+
+    G --> H[Risk Rating and Impact Mapping]
+    H --> I[Remediation Guidance]
+    I --> J[Professional Final Report]
+```
+
 ### Key Work Completed
 
 * Built a structured Web VAPT lab using DVWA and Kali Linux
