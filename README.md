@@ -459,44 +459,6 @@ flowchart LR
 
 ---
 
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jazz00001&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Jazz00001&theme=tokyonight&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jazz00001&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jazz00001&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
-</p>
-
----
-
-## Recruiter Summary
-
-```text
-Cybersecurity student building enterprise-style security labs across SOC monitoring,
-detection engineering, DevSecOps, Kubernetes security, cloud security, application
-security testing, supply-chain security, runtime detection, compliance mapping,
-and professional evidence-based reporting.
-```
-
-I am especially interested in roles where I can work on:
-
-* SOC monitoring and alert triage
-* Detection engineering
-* DevSecOps and CI/CD security
-* Container and Kubernetes security
-* Application security and API testing
-* Cloud security assessment
-* Security automation and evidence-driven reporting
-
----
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:22c55e,50:1d4ed8,100:020617" alt="Footer Wave" />
 </p>
