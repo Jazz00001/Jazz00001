@@ -275,6 +275,41 @@ flowchart LR
 
 An enterprise-style SOC monitoring lab using Wazuh SIEM/XDR, Windows endpoint telemetry, Linux monitoring, Sysmon, File Integrity Monitoring, vulnerability detection, and MITRE ATT&CK mapping.
 
+### Project Flow
+
+```mermaid
+
+flowchart LR
+    A[Deploy Wazuh Manager] --> B[Connect Endpoints]
+
+    B --> C[Windows Endpoint]
+    B --> D[Linux Endpoint]
+
+    C --> C1[Install Wazuh Agent]
+    C1 --> C2[Enable Windows Event Logs]
+    C2 --> C3[Integrate Sysmon Telemetry]
+    C3 --> C4[Generate Controlled Suspicious Activity]
+
+    D --> D1[Install Wazuh Agent]
+    D1 --> D2[Enable Linux Monitoring]
+    D2 --> D3[File Integrity Monitoring]
+    D3 --> D4[Package / Vulnerability Visibility]
+
+    C4 --> E[Alert Generated in Wazuh]
+    D4 --> E
+
+    E --> F[Alert Triage]
+    F --> G[Event Timeline Analysis]
+    G --> H[MITRE ATT&CK Mapping]
+    H --> I[Severity and Impact Review]
+    I --> J[Investigation Notes]
+    J --> K[Evidence Screenshots]
+    K --> L[SOC Analyst Report]
+    L --> M[Future Detection Improvements]
+
+```
+
+
 ### Key Work Completed
 
 * Deployed Wazuh SIEM/XDR in a local lab environment
@@ -301,6 +336,44 @@ An enterprise-style SOC monitoring lab using Wazuh SIEM/XDR, Windows endpoint te
 </p>
 
 A Windows-focused detection engineering lab built around custom Wazuh rules, Sysmon telemetry, Windows Event Logs, MITRE ATT&CK mapping, validation evidence, and analyst guidance.
+
+### Project Flow
+
+```mermaid
+
+flowchart LR
+    A[Define Detection Objective] --> B[Select Telemetry Source]
+
+    B --> C[Sysmon Logs]
+    B --> D[Windows Security Logs]
+    B --> E[Windows Defender Logs]
+
+    C --> F[Create Detection Rule]
+    D --> F
+    E --> F
+
+    F --> G[Deploy Custom Wazuh Rule]
+    G --> H[Generate Controlled Test Activity]
+
+    H --> H1[PowerShell Encoded Command]
+    H --> H2[Local User Creation]
+    H --> H3[Service Creation / Modification]
+    H --> H4[Defender / EICAR Test]
+
+    H1 --> I[Alert Validation]
+    H2 --> I
+    H3 --> I
+    H4 --> I
+
+    I --> J[Map to MITRE ATT&CK]
+    J --> K[Review False Positives]
+    K --> L[Tune Rule Logic]
+    L --> M[Capture Alert JSON Evidence]
+    M --> N[Document Triage Steps]
+    N --> O[Detection Engineering Report]
+
+```
+
 
 ### Key Work Completed
 
