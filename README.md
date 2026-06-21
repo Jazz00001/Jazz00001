@@ -330,7 +330,7 @@ flowchart LR
 ## 4. Windows Detection Engineering Lab — Wazuh, Sysmon & MITRE ATT&CK
 
 <p>
-  <a href="https://github.com/Jazz00001/windows-detection-engineering-lab">
+  <a href="https://github.com/Jazz00001/Windows-Detection-Engineering-Lab-Wazuh-Sysmon-MITRE-ATT-CK">
     <img src="https://img.shields.io/badge/View%20Project-Windows%20Detection%20Engineering%20Lab-7c3aed?style=for-the-badge&logo=windows&logoColor=white" />
   </a>
 </p>
