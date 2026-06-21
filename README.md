@@ -402,7 +402,7 @@ flowchart LR
 ## 5. Advanced Network Attack Packet Analysis Lab
 
 <p>
-  <a href="https://github.com/Jazz00001/advanced-network-attack-packet-analysis-lab">
+  <a href="https://github.com/Jazz00001/network-attack-packet-analysis-wireshark">
     <img src="https://img.shields.io/badge/View%20Project-Network%20Packet%20Analysis%20Lab-f97316?style=for-the-badge&logo=wireshark&logoColor=white" />
   </a>
 </p>
